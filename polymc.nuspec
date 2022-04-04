@@ -14,7 +14,7 @@
     <summary>PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.</summary>
     <tags>polymc minecraft launcher mod fabric forge pack</tags>
     <projectSourceUrl>https://github.com/PolyMC/PolyMC</projectSourceUrl>
-    <packageSourceUrl>https://github.com/txtsd/PolyMC/tree/choco/packages/choco/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/PolyMC/chocolatey</packageSourceUrl>
     <docsUrl>https://polymc.org/wiki/</docsUrl>
     <bugTrackerUrl>https://github.com/PolyMC/PolyMC/issues</bugTrackerUrl>
     <dependencies>
