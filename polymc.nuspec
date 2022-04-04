@@ -22,6 +22,52 @@
       <dependency id="temurin8jre" version="8.312.7"/>
       <dependency id="temurin17jre" version="17.0.2.8"/>
     </dependencies>
+    <releaseNotes>
+      ### Added
+      - New option to close PolyMC after launch
+      - Now detects Java from environment
+      - New `Open page &amp; copy code` button in MSA login dialog
+      - Added StartupWMClass to .desktop file so DEs can behave
+      - Added PolyMC news
+      - Added CurseForge and Modrinth mod downloader
+      - New CC BY-NC-SA 4.0 license for PolyMC logos and branding
+      - Added MSA-Client-ID override in UI
+      - Added missing tooltip for instance export
+      - Added MSA Client ID change detection and prompt
+      - Added Matrix space link
+
+      ### Changed
+      - Default to the system locale on first startup
+      - Replaced `paste.ee` with `0x0.st` and `paste.polymc.org`
+      - Updated information in the About dialog
+      - Migrated to upstream QuaZip 1.2
+      - QuaZip is now linked statically
+      - Internal libraries are now linked statically
+      - PolyMC specific translations now hosted on weblate
+      - Update metadata
+      - Version string now shows the branch that PolyMC was built from
+      - New MSA Client ID
+      - Replace old build layout system with new `Launcher_PORTABLE` cmake flag
+      - Reorganized icon themes
+      - [Windows] Now runs on WSL
+      - [macOS] Move app data to `Application Support`
+
+      ### Fixed
+      - Add some logging to profile fetching failures
+      - Ignore invalid lines altogether in java checker
+      - Correctly set http status code in auth reply
+      - Log server response when failing to fetch profile
+      - Fix error message
+      - Fixed inconsistent behavior of icons when exiting the settings screen
+      - Fixed freedesktop icons
+      - [macOS] Fixed GUI identifier
+
+      ### Removed
+      - Removed MultiMC news
+      - Removed legacy instance support
+
+      **Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.0.6...1.1.0
+</releaseNotes>
   </metadata>
   <files>
     <file src="**" exclude=".git\**;.gitignore"/>
