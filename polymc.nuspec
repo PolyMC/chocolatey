@@ -19,9 +19,9 @@
     <docsUrl>https://polymc.org/wiki/</docsUrl>
     <bugTrackerUrl>https://github.com/PolyMC/PolyMC/issues</bugTrackerUrl>
     <dependencies>
-      <dependency id="vcredist2010" version="10.0.40219.32503" />
-      <dependency id="temurin8jre" version="8.322.6" />
-      <dependency id="temurin17jre" version="17.0.2.8" />
+      <dependency id="vcredist2010" version="10.0.40219.32503"/>
+      <dependency id="temurin8jre" version="8.322.6"/>
+      <dependency id="temurin17jre" version="17.0.2.8"/>
     </dependencies>
   </metadata>
   <files>
