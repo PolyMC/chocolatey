@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>polymc</id>
+    <version>1.0.6</version>
+    <title>PolyMC</title>
+    <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
+    <owners>txtsd</owners>
+    <licenseUrl>https://github.com/PolyMC/PolyMC/blob/stable/LICENSE</licenseUrl>
+    <projectUrl>https://polymc.org</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/txtsd/PolyMC/6437270ef22ea46e152bb3739ecf6864a23d5f6f/packages/choco/images/polymc.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PolyMC is a custom launcher for Minecraft that focuses on predictability,
+      long term stability and simplicity.</description>
+    <summary>PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.</summary>
+    <tags>polymc minecraft launcher mod fabric forge pack</tags>
+    <projectSourceUrl>https://github.com/PolyMC/PolyMC</projectSourceUrl>
+    <packageSourceUrl>https://github.com/txtsd/PolyMC/tree/choco/packages/choco/</packageSourceUrl>
+    <docsUrl>https://polymc.org/wiki/</docsUrl>
+    <bugTrackerUrl>https://github.com/PolyMC/PolyMC/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="vcredist2010" version="10.0.40219.32503" />
+      <dependency id="temurin8jre" version="8.322.6" />
+      <dependency id="temurin17jre" version="17.0.2.8" />
+    </dependencies>
+  </metadata>
+</package>
