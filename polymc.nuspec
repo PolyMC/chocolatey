@@ -8,7 +8,7 @@
     <owners>txtsd</owners>
     <licenseUrl>https://github.com/PolyMC/PolyMC/blob/stable/LICENSE</licenseUrl>
     <projectUrl>https://polymc.org</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/txtsd/PolyMC/6437270ef22ea46e152bb3739ecf6864a23d5f6f/packages/choco/images/polymc.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/PolyMC/chocolatey/810744152d0904b8d5993959f8e8512607c88747/images/polymc.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>PolyMC is a custom launcher for Minecraft that focuses on predictability,
       long term stability and simplicity.</description>
