@@ -6,7 +6,7 @@
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
-    <licenseUrl>https://github.com/PolyMC/PolyMC/blob/stable/LICENSE</licenseUrl>
+    <licenseUrl>https://rawcdn.githack.com/PolyMC/PolyMC/bd60c5491109711c7812bc28b5edef61d0e1210b/LICENSE</licenseUrl>
     <projectUrl>https://polymc.org</projectUrl>
     <iconUrl>https://rawcdn.githack.com/PolyMC/chocolatey/810744152d0904b8d5993959f8e8512607c88747/images/polymc.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
