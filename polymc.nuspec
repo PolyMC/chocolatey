@@ -24,4 +24,7 @@
       <dependency id="temurin17jre" version="17.0.2.8" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="**" exclude=".git\**;.gitignore"/>
+  </files>
 </package>
