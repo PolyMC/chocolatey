@@ -15,13 +15,3 @@ if (Test-Path $DesktopShortcut)
 {
   Remove-Item $DesktopShortcut
 }
-
-$polymcdir = Join-Path "$(Get-ToolsLocation)" "PolyMC"
-if(Test-Path $polymcdir)
-{
-  Write-Host "Your instances will be deleted (if they live in the PolyMC directory: $polymcdir)" -ForegroundColor Black -BackgroundColor Yellow
-  Write-Host "Ctrl-C to cancel" -ForegroundColor Black -BackgroundColor Yellow
-  timeout 10
-  Remove-Item -path "$polymcdir" -recurse
-}
-
