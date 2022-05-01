@@ -1,14 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = Join-Path "$(Get-ToolsLocation)" "PolyMC"
-$url        = 'https://github.com/PolyMC/PolyMC/releases/download/1.1.1/PolyMC-Windows-x86_64-1.1.1.zip'
+$url        = 'https://github.com/PolyMC/PolyMC/releases/download/1.2.0/PolyMC-Windows-x86_64-1.2.0.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $installDir
   url           = $url
   softwareName  = 'PolyMC*'
-  checksum      = '91c15aea76153e35240d92ed376dc320103afb84e30703b600bc0333ccb2994e'
+  checksum      = '57134d77bb5d06e40fc58dd6fb91b05f3dd23fd79ec03e104610543882b5f88b'
   checksumType  = 'sha256'
 }
 
