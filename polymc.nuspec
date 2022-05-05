@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polymc</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
@@ -23,47 +23,26 @@
     </dependencies>
     <releaseNotes>
 ### Added
-- Allow components to specify Java agents and JVM arguments
-- Add support for Quilt loader
-- Add buttons to Matrix space and Reddit
-- Allow moving toolbars
-- Add Quit after game stop option
-- Block game launch if Java is incompatible
-- Add grayscale icon for monochrome icon themes
-- Track and display game world sizes
-- Add more detailed progress dialog for mod-downloader
-- Add version selector for Technic modpacks
-- Add basic filtering to mod downloader
-- Lay groundwork for ARM64 support
-- Add mod loader selection to instance creation
-- Save custom offline player name
-- Add optional menu-bar and keyboard navigation
-- [Linux] Provide portable builds
-- [Windows] Add support for POLYMC_JAVA_PATHS
-
-### Changed
-- Improve mod downloader
-- Switch logo font to Josefin Sans
-- Updated Nix Flake
-- Combine portable and system builds
-- Build script improvements
-- Update credits and branding
-- Update license for logos
-- Change path of help pages
-- Use system libraries if possible
-- [macOS] Switch to Qt 5.15.3
+- Specify build platform for about page
+- [macOS] Enable hardened runtime
 
 ### Fixed
-- Fix and improve translatable strings
-- Switch to newer Discord logo
-- [Linux] Flatpak fixes
-- [Linux] Install missing manpage
-- [FreeBSD] Force system LWJGL natives
+- Fix typos and capitalization
+- Fix placeholder translations for mod downloader
+- Fix missing files in release workflow
+- Fix Modrinth search if Quilt is used
+- Fix crashes when creating a new instance
+- Fix crash when mod downloader has network issues
+- Fix sort-by-size in world list
+- Fix crash when trying to create an instance without a Minecraft version
+- Fix crash when opening the mod downloader with snapshots
+- [macOS] Fix version string
+- [macOS] Fix instance rename using return-key
 
 ### Removed
-- Remove unused notification system
+- [FreeBSD] Revert "Force system LWJGL natives"
 
-**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.1.1...1.2.0
+**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.2.0...1.2.1
 </releaseNotes>
   </metadata>
   <files>
