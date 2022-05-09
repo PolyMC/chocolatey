@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polymc</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
@@ -22,27 +22,13 @@
       <dependency id="temurin17jre" version="17.0.2.8"/>
     </dependencies>
     <releaseNotes>
-### Added
-- Specify build platform for about page
-- [macOS] Enable hardened runtime
-
 ### Fixed
-- Fix typos and capitalization
-- Fix placeholder translations for mod downloader
-- Fix missing files in release workflow
-- Fix Modrinth search if Quilt is used
-- Fix crashes when creating a new instance
-- Fix crash when mod downloader has network issues
-- Fix sort-by-size in world list
-- Fix crash when trying to create an instance without a Minecraft version
-- Fix crash when opening the mod downloader with snapshots
-- [macOS] Fix version string
-- [macOS] Fix instance rename using return-key
+- Hide sensitive tokens from logs
+- Implemented a workaround to allow Mojang logins
+- Move to new CurseForge Core API
+- [Linux] Fix AppImage scaling issues
 
-### Removed
-- [FreeBSD] Revert "Force system LWJGL natives"
-
-**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.2.0...1.2.1
+**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.2.1...1.2.2
 </releaseNotes>
   </metadata>
   <files>
