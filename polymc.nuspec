@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polymc</id>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
@@ -23,52 +23,38 @@
     </dependencies>
     <releaseNotes>
 ### Added
-- Support ATLauncher share codes
-- Allow changing metadata-server settings
-- Add PolyMC icon as instance icon
-- Add option to always hide Java setup wizard
-- Add support for paste.gg, hastebin and mclo.gs paste services
-- Add instance overrides for miscellaneous settings
-- Modrinth modpack support
-- Quilt mod metadata support
-- Support Mojang's new split natives
-- Allow changing CurseForge api key settings
-- [macOS] Add Big Sur-style icon
-- [Windows] Add Windows installer
+- Add code style configuration
+- Add modpack version in the name for FTB legacy packs
+- [Windows] Add desktop shortcut in the installer
 
 ### Changed
-- Bump Qt requirement to 5.12
-- Refactor launcher code
-- Refactor network code
-- Speedup automatic builds
-- Make profile selection menu scrollable
-- Switch to new CurseForge API Key
-- Improve behavior when multiple mod loaders are in use
-- Various improvements to ATLauncher support
-- Switch to a better CurseForge icon
-- Improve compile parameters
+- Clarify T&C for API keys
+- Improve download speed when using the CurseForge API
+- Improve whitelisted hosts filtering code
+- Make JVM arguments text-field multi-line
+- Remove CurseForge API workaround on modpacks
+- Show metaserver URL instead of `(default)`
+- Update Nix support
+- Warn the user of non-whitelisted hosts in mrpacks
+- [macOS] Switch background of icon to white
 
 ### Fixed
-- Always build iconfix as static library
-- Added and fixed mnemonics
-- Fix selection of .zip files
-- Fix graphical issue when moving toolbars
-- Fix missing translations when switching languages
-- Fix missing screenshots in screenshot manager
-- Fix website link in CurseForge modpacks
-- Hide temporary directory inside instances directory
-- Fix icons not showing in some FTB modpacks
-- Fix toolbar disappearing in a certain circumstance
-- Fix issue with Solder.cf Technic packs
-- [macOS] Fix Steam overlay on macOS
+- Correctly handle ATL packs when `mainClass` has a `depends` field
+- Fix crash when aborting instance import
+- Fix icon importing when using non-standard icon paths
+- Fix missing mnemonics in the API page
+- Fix modpack's type inference when importing
+- Fix search filters for Modrinth
+- Properly fix CurseForge modpack installation
+- Silence unimportant build warnings
+- [Linux] Add missing image-format libraries for the AppImage
+- [Linux] Fix image sizes in Flathub
+- [Windows] Correctly set PolyMC's version for binaries
 
 ### Removed
-- Remove unneeded build files
-- Remove references to legacy Minecraft accounts
-- Remove self-promotion from game client to reduce fingerprinting
-- [macOS] Remove old macOS migration code
+- [Windows] Remove explicit Vista support
 
-**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.2.2...1.3.0
+**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.3.0...1.3.1
 </releaseNotes>
   </metadata>
   <files>
