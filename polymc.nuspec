@@ -28,7 +28,7 @@
 - [Windows] Add desktop shortcut in the installer
 
 ### Changed
-- Clarify T&C for API keys
+- Clarify T&amp;C for API keys
 - Improve download speed when using the CurseForge API
 - Improve whitelisted hosts filtering code
 - Make JVM arguments text-field multi-line
