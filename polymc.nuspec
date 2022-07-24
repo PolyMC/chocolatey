@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polymc</id>
-    <version>1.3.2</version>
+    <version>1.4.0</version>
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
@@ -23,32 +23,64 @@
     </dependencies>
     <releaseNotes>
 ### Added
-- Add support for Quilt modpacks on Technic
-- [Linux] Added support for Nix 2.7
-- [Windows] Add version information to setup executable
+
+- Add concurrent tasks
+- Add more links to mod and modpack descriptions
+- Add news reader in the launcher
+- Add on-disk mod metadata information
+- Implement mod updater
+- Preliminary work for modpack updates
+- Qt 6 support
+- [Linux] Add Performance settings (MangoHud, GameMode and PRIME)
+- [Linux] Add more metadata to Nix package
+- [macOS] Implement updater using Sparkle
+- [OpenBSD] Readd support for OpenBSD
 
 ### Changed
-- Change build flags
-- Do not enforce fractional scaling
-- Sort icons in icon-selector alphabetically
-- [Linux] Allow adding more JDKs to Nix package
+
+- Allow the cape to be changed without changing the skin
+- Cleanup Java code
+- Hide channel from version for tagged commits
+- Improve handling of environment variables
+- Improve resolving of JARs
+- Improve the account selection window
+- Improve UX in the mod downloader
+- Improvements for Modrinth/CurseForge modpacks
+- Improvements around APIs page
+- Improvements to Windows installer
+- Make version labels in About dialog selectable
+- Make FTB Classic layout the same as other platforms
+- Refactor instance resources pages
+- Refactor tests
+- Replace old reference to launchermeta.mojang.com
+- Reword CurseForge warning
+- Separate launch and kill instance actions
+- Update license information
+- [Linux] Cleanup flake.nix
+- [Linux] Rewrite polymc.6 in scdoc
+- [macOS] Build on macOS 12 in CI
 
 ### Fixed
-- Allow importing .mrpack files on non-latin languages
-- Always store type of instance to allow compatibility with MultiMC
-- Fix crash with very old Forge versions
-- Fix multiple issues when importing Modrinth packs
-- Fix website-url for Technic modpacks
-- Hide profile-section dialog if the user refused to add an account
-- Update instance toolbar when instance state changes
-- [Linux] Add `mc` keyword to .desktop file
-- [Linux] Update Nix Flake lockfile
-- [macOS] Fix lingering PolyMC icon in Dock
 
-### Removed
-- [OpenBSD] Drop support for OpenBSD
+- Always scale mod icons to the right size
+- Don't censor offline access token
+- Don't create unnecessary folders when extracting ZIPs
+- Fix broken output in mod list
+- Fix contrast of placeholder text with dark theme
+- Fix duplicate name in window title
+- Fix hangs when aborting some tasks
+- Fix missing instance version in status bar
+- Fix permanent mod-loaders for some modpacks
+- Fix "Play Offline" not working when auth servers are partially offline
+- Fix sorting for Modrinth resources
+- Fix Technic instances using Forge
+- Fix translations
+- Fix warnings reported by LGTM.com
+- [Linux] Fix mods relying on libstdc++ on Nix
+- [Linux] Use our fork of libnbtplusplus on Nix
+- [macOS] Workaround Qt bug to fix menu bar separators
 
-**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.3.1...1.3.2
+**Full Changelog**: <https://github.com/PolyMC/PolyMC/compare/1.3.2...1.4.0>
 </releaseNotes>
   </metadata>
   <files>
