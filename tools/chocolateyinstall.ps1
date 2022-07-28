@@ -5,12 +5,12 @@ $installDir = Join-Path "$(Get-ToolsLocation)" "PolyMC"
 
 # Read parameter to decide if we install standard or legacy
 if (!$pp['legacy']) {
-  $url      = 'https://github.com/PolyMC/PolyMC/releases/download/1.4.0/PolyMC-Windows-1.4.0.zip'
-  $checksum = '89da603458deb29c3e9ad71801fb679d7b06ba1937d305b7a27360bde1df6670'
+  $url      = 'https://github.com/PolyMC/PolyMC/releases/download/1.4.1/PolyMC-Windows-1.4.1.zip'
+  $checksum = '702d833313318fe8e3dbafc9540d0db23b1a4c6f682283aaa6b302886c5f1aee'
 }
 else {
-  $url      = 'https://github.com/PolyMC/PolyMC/releases/download/1.4.0/PolyMC-Windows-Legacy-1.4.0.zip'
-  $checksum = '4f52c6b002a2d33027ac5e51b5b91f42e6460473834a7b701d7740680871c57c'
+  $url      = 'https://github.com/PolyMC/PolyMC/releases/download/1.4.1/PolyMC-Windows-Legacy-1.4.1.zip'
+  $checksum = '71268c2d508446c758fedc6a8c96e94de2e8309a13693711d79d6d6a02dcc2c0'
 }
 
 $packageArgs = @{
