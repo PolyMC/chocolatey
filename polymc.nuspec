@@ -10,7 +10,14 @@
     <projectUrl>https://polymc.org</projectUrl>
     <iconUrl>https://rawcdn.githack.com/PolyMC/chocolatey/810744152d0904b8d5993959f8e8512607c88747/images/polymc.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.</description>
+    <description>PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.
+
+### Legacy version ([Windows 7 and 8.1](https://polymc.org/wiki/getting-started/installing-polymc/#windows-7-and-8.1))
+
+To install the legacy version of PolyMC from 1.4.0 onwards, use the /legacy parameter like so:
+
+    choco install polymc --params='/legacy'
+    </description>
     <summary>PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.</summary>
     <tags>polymc minecraft launcher mod fabric forge pack</tags>
     <projectSourceUrl>https://github.com/PolyMC/PolyMC</projectSourceUrl>
