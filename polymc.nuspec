@@ -19,7 +19,7 @@
     <bugTrackerUrl>https://github.com/PolyMC/PolyMC/issues</bugTrackerUrl>
     <dependencies>
       <dependency id="temurin8jre" version="8.312.7"/>
-      <dependency id="temurin17jre" version="17.0.3.7"/>
+      <dependency id="temurin17jre" version="17.0.4.101"/>
     </dependencies>
     <releaseNotes>
 ### Added
