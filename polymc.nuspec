@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polymc</id>
-    <version>1.4.1</version>
+    <version>1.4.2</version>
     <title>PolyMC</title>
     <authors>https://github.com/PolyMC/PolyMC/graphs/contributors</authors>
     <owners>txtsd</owners>
@@ -22,19 +22,32 @@
       <dependency id="temurin17jre" version="17.0.3.7"/>
     </dependencies>
     <releaseNotes>
-### Changed
+### Added
+- [OpenBSD] Add root path detection
 
-- Hide empty "Performance" settings on non-Linux builds by @flowln in #951
+### Changed
+- Bump to C++17
+- Hide 'More news...' button if the news aren't loaded yet
+- Make 'About' dialog smaller
+- Make Coremods / Mods seperation more clear
+- Update copyright notices
+- [macOS] Downgrade to Qt 6.3.0
 
 ### Fixed
-	    
-- Fix crash when JAR-mods are applied by @flowln in #956
-- Fix filter on resources pages (e.g. Mods page) by @flowln in #961
-- Fix variables in pre launch/post exit hooks by @Scrumplex in #952
-- Make adding multiple accounts possible again by @flowln in #974
-- Resolve CurseForge mods for FTB modpacks by @flowln and @Scrumplex in #699
+- Allow user to interrupt launch after 3 tries
+- Cleanup old mod metadata
+- Disable "Check for Updates" while the game is running or if all mods are removed
+- Fix crashes in mod updater
+- Fix errors when extracting some modpacks
+- Fix major version filter in mod downloader
+- Fix some icon cache problems
+- Fix UTF-8 decoding in log
+- Make world safety nag popup title text match the action
+- Make URLs in the FTB Legacy browser clickable
+- [Linux] Implement workaround for Ubuntu 22.04 OpenSSL issues
+- [Linux] Update AppStream info
 
-**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.4.0...1.4.1
+**Full Changelog**: https://github.com/PolyMC/PolyMC/compare/1.4.1...1.4.2
 </releaseNotes>
   </metadata>
   <files>
